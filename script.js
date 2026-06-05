@@ -136,8 +136,9 @@ reiniciar.addEventListener('click', (event) => {
 
 
         nombreJugador.textContent = 'X'
-        alertaTurno.classList.remove('d-none')  // Reaparece el panel de turnos
-        alertaGanador.classList.add('d-none')   // Se vuelve a esconder el ganador
+        alertaTurno.classList.remove('d-none')
+        alertaTurno2.classList.add('d-none')
+        alertaGanador.classList.add('d-none')
         alertaEmpate.classList.add('d-none')
     })
 })
