@@ -142,5 +142,3 @@ reiniciar.addEventListener('click', (event) => {
         alertaEmpate.classList.add('d-none')
     })
 })
-
-
